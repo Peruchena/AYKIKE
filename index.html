@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aykike - Catálogo</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="main-container">
+            <div id="nav">
+                <header>
+                    <a href="https://aykike.com.ar/?v=5b61a1b298a0">
+                        <img src="media/logo-nav.png" alt="logo" id="logo">
+                    </a>
+                </header>
+            </div>
+
+            <div class="catalogtitle">
+                <h2>Catálogo</h2>
+            </div>
+            <section>
+                <div class="item-container">
+                    <div class="catalog" id="listado-articulos">
+
+                    </div>
+                </div>
+                <div class="pagination">
+                    <button id="atras" class="pag-control">« Atras</button>
+                    <span id="informacion-pagina"></span>
+                    <button id="siguiente" class="pag-control">Adelante »</button>
+                </div>
+
+            </section>
+
+            <template id="plantilla-articulo">
+                <div id="item">
+                    <img src="" alt="" id="img">
+                    <h3 id="title"></h3>
+                    <p id="desc"></p>
+                    <p id="price"></p>
+                    <button>Agregar al carrito</button>
+                </div>
+            </template>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
